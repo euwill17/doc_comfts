@@ -1,0 +1,26 @@
+body{
+    background-image: url('https://img.freepik.com/vetores-gratis/floral-abstrato-ornamental_52683-30016.jpg?semt=ais_hybrid&w=740');
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    margin: 20px;
+}
+nav{
+
+    background-color: RED;
+}
+h1{
+    color:white ;
+}
+p{
+    color: white;
+
+}
