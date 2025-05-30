@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Vídeos - ADS</title>
+    <link rel="stylesheet" href="stlye.css">
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/vetores-gratis/floral-abstrato-ornamental_52683-30016.jpg?semt=ais_hybrid&w=740');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 vídeos por linha */
+            gap: 20px;
+            justify-items: center; /* centraliza cada vídeo na célula */
+            margin-top: 30px;
+        }
+
+        .video-grid iframe {
+            width: 400px;
+            height: 225px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tarefa.html">tarefa2</a></li>
+                <li><a href="tarefa2.html">tarefa3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>MEMES</h1>
+    <p>VIDEOS ENGRAÇADOS</p>
+
+    <div class="video-grid">
+        <!-- Vídeos do YouTube -->
+        <iframe src="https://www.youtube.com/embed/2sYmi5XL0B0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/U9CXtycJz_g" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/UnrWbACnur8" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Ibow_K7fqF0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Wu3Y_v8JeE8" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/bsBWSevLkM8" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
